@@ -33,7 +33,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-GEMINI_API_KEY = "AIzaSyDBhJFBKcOfhaSSw7swG7ONGFbE8aDaKuY"
+GEMINI_API_KEY = ""
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
